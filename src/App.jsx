@@ -14,7 +14,7 @@ import AddModel from './pages/AddModel'
 import AddPhoto from './pages/AddPhoto'
 import AddSusProduct from './pages/AddSusProduct'
 import ListEvents from './pages/ListEvents'
-import Listmemberships from './pages/Listmemberships'
+import ListMemberships from './pages/ListMemberships'
 import ListModels from './pages/ListModels'
 import ListPhotos from './pages/ListPhotos'
 import ListSusProducts from './pages/ListSusProducts'
@@ -51,7 +51,7 @@ const App = () => {
                 <Route path='/addSusProduct' element={<AddSusProduct token={token}/>}/>
                 <Route path='/list' element={<List token={token}/>}/>
                 <Route path='/listEvents' element={<ListEvents token={token}/>}/>
-                <Route path='/listMemberships' element={<Listmemberships token={token}/>}/>
+                <Route path='/listMemberships' element={<ListMemberships token={token}/>}/>
                 <Route path='/listModels' element={<ListModels token={token}/>}/>
                 <Route path='/listPhotos' element={<ListPhotos token={token}/>}/>
                 <Route path='/listSusProducts' element={<ListSusProducts token={token}/>}/>
